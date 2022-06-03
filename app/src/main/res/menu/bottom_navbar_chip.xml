@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:iconTint="@color/blue"
+        app:cnb_backgroundColor="@color/browser_actions_bg_grey"/>
+    <item android:id="@+id/exploreFragment"
+        android:title="Explore"
+        android:iconTint="@color/blue"
+        android:icon="@drawable/explore"
+
+        app:cnb_backgroundColor="@color/browser_actions_bg_grey"/>
+    <item android:id="@+id/demo"
+        android:title="demo"
+        android:iconTint="@color/blue"
+        android:icon="@drawable/ic_heart"
+        app:cnb_backgroundColor="@color/browser_actions_bg_grey"/>
+    <item android:id="@+id/userFragment"
+        android:title="User"
+        android:iconTint="@color/blue"
+        android:icon="@drawable/user"
+        app:cnb_backgroundColor="@color/browser_actions_bg_grey"/>
+</menu>
